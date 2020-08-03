@@ -1,0 +1,33 @@
+Confusion / Classification Matrix
+
+Predicted     0     1    All
+Actual                      
+0          5133   762   5895
+1          1598  4155   5753
+All        6731  4917  11648
+
+1- Non Functional
+0- Functional (Functional + functional needs repair)
+
+Functional% = Actual Functional Correctly Predicted/ Actual Functional = 87%
+Non Functional% = Actual Non Functional Correctly Predicted/ Actual Non Functional =1407/3090 = 73% 
+
+=========================================================================================
+Accuracy is 0.7973901098901099 ~ 80%
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.76      0.87      0.81      5895
+           1       0.85      0.72      0.78      5753
+
+    accuracy                           0.80     11648
+   macro avg       0.80      0.80      0.80     11648
+weighted avg       0.80      0.80      0.80     11648
+
+
+===========================================================================================
+
+
+
+

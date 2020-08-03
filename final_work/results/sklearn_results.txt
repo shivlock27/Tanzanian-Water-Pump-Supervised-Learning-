@@ -1,0 +1,52 @@
+1 = Non Functional
+0 = Functional + Functional needs repair
+
+=================================================================================
+Logistic Regression
+
+Test Accuracy: 81.8%
+Train Accuracy: 82.1%
+
+Confusion Matrix:
+      0     1
+ 0 [ 45%    4% ]
+ 1 [ 14%   37% ]
+
+Correct Classifications - 81%
+Misclassifications -  18%
+
+Characteristic Report:
+              precision    recall  f1-score   support
+
+           0       0.76      0.92      0.83      5775
+           1       0.90      0.72      0.80      5873
+
+    accuracy                           0.82     11648
+   macro avg       0.83      0.82      0.82     11648
+weighted avg       0.83      0.82      0.82     11648
+
+==================================================================================
+
+Random Forest
+
+Test Accuracy: 88.5%
+Train Accuracy: 94.8%
+
+Confusion Matrix:
+	0    1
+   0 [ 46%   4% ]
+   1 [ 8%   42% ]
+Correct Classifications - 88%
+Misclassifications -  12%
+
+Characteristic Report:
+              precision    recall  f1-score   support
+
+           0       0.86      0.92      0.89      5775
+           1       0.92      0.85      0.88      5873
+
+    accuracy                           0.89     11648
+   macro avg       0.89      0.89      0.89     11648
+weighted avg       0.89      0.89      0.89     11648
+
+==================================================================================

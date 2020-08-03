@@ -1,0 +1,35 @@
+Optimization terminated successfully.
+         Current function value: 0.427927
+         Iterations 9
+                           Logit Regression Results                           
+==============================================================================
+Dep. Variable:           status_group   No. Observations:                27178
+Model:                          Logit   Df Residuals:                    27159
+Method:                           MLE   Df Model:                           18
+Date:                Mon, 22 Jun 2020   Pseudo R-squ.:                  0.3826
+Time:                        21:13:23   Log-Likelihood:                -11630.
+converged:                       True   LL-Null:                       -18838.
+Covariance Type:            nonrobust   LLR p-value:                     0.000
+======================================================================================================
+                                         coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------------
+Intercept                              6.4951      0.188     34.504      0.000       6.126       6.864
+closeness_to_waterbody[T.Near]        -0.0789      0.038     -2.077      0.038      -0.153      -0.004
+permit[T.True]                        -0.3293      0.036     -9.069      0.000      -0.400      -0.258
+payment_type[T.monthly]               -0.7933      0.055    -14.362      0.000      -0.902      -0.685
+payment_type[T.never pay]              0.1129      0.049      2.320      0.020       0.018       0.208
+payment_type[T.on failure]            -1.2416      0.087    -14.262      0.000      -1.412      -1.071
+payment_type[T.per bucket]            -1.1551      0.059    -19.428      0.000      -1.272      -1.039
+quality_group[T.other]                -0.4295      0.141     -3.050      0.002      -0.706      -0.154
+quality_group[T.salty]                -0.3220      0.064     -5.034      0.000      -0.447      -0.197
+quantity_group[T.enough]              -5.5698      0.177    -31.431      0.000      -5.917      -5.223
+quantity_group[T.insufficient]        -4.8629      0.179    -27.237      0.000      -5.213      -4.513
+quantity_group[T.seasonal]            -5.9757      0.198    -30.139      0.000      -6.364      -5.587
+source_type[T.river/lake]             -1.5667      0.054    -28.800      0.000      -1.673      -1.460
+source_type[T.shallow well]           -0.5960      0.066     -9.077      0.000      -0.725      -0.467
+source_type[T.spring]                 -1.7646      0.055    -31.877      0.000      -1.873      -1.656
+waterpoint_type_group[T.hand pump]    -0.8875      0.065    -13.707      0.000      -1.014      -0.761
+gps_height                            -0.0004   3.11e-05    -11.550      0.000      -0.000      -0.000
+population                            -0.0002   3.86e-05     -6.071      0.000      -0.000      -0.000
+construction_age                       0.0407      0.001     29.776      0.000       0.038       0.043
+======================================================================================================

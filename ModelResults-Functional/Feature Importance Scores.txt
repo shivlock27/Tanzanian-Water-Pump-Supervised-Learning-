@@ -1,0 +1,41 @@
+
+Feature: gps_height, Score: 0.00011217268463356796
+Feature: population, Score: 0.00036334537693306245
+Feature: construction_age, Score: -0.03833788584052556
+Feature: region_Arusha, Score: 0.5932056192873659
+Feature: region_Dar es Salaam, Score: 0.8124749776754954
+Feature: region_Iringa, Score: 1.0322278551468902
+Feature: region_Kigoma, Score: -1.1299240218987794
+Feature: region_Kilimanjaro, Score: -0.15831009695417664
+Feature: region_Lindi, Score: -0.51223918767819
+Feature: region_Manyara, Score: 0.4474851374306828
+Feature: region_Mara, Score: -0.5297896851560138
+Feature: region_Morogoro, Score: -0.010156862544808609
+Feature: region_Mtwara, Score: -0.18405822734906
+Feature: region_Mwanza, Score: -0.3157651364152813
+Feature: region_Pwani, Score: -0.12906975553171476
+Feature: region_Rukwa, Score: -0.2701967492761202
+Feature: region_Ruvuma, Score: 0.3344832000329199
+Feature: region_Shinyanga, Score: -0.24333118546893814
+Feature: region_Singida, Score: -0.28112437226302817
+Feature: region_Tanga, Score: 0.5126852485125837
+Feature: permit_False, Score: -0.20237289145258736
+Feature: permit_True, Score: 0.17096964911201923
+Feature: payment_type_annually, Score: 0.36596234530178096
+Feature: payment_type_monthly, Score: -0.06702198200520727
+Feature: payment_type_never pay, Score: -0.7980319230153972
+Feature: payment_type_on failure, Score: 0.12220475085388229
+Feature: payment_type_per bucket, Score: 0.3454835664845098
+Feature: quality_group_good, Score: 0.07343558095819264
+Feature: quality_group_other, Score: 0.05220188713936197
+Feature: quality_group_salty, Score: -0.15704071043196255
+Feature: quantity_group_dry, Score: -3.534128807339342
+Feature: quantity_group_enough, Score: 1.4094569114120383
+Feature: quantity_group_insufficient, Score: 0.8022555357515403
+Feature: quantity_group_seasonal, Score: 1.291013117611937
+Feature: source_type_borehole, Score: -0.5186858094625487
+Feature: source_type_river/lake, Score: 0.1054603985920075
+Feature: source_type_shallow well, Score: -0.058625859895920694
+Feature: source_type_spring, Score: 0.4404480284397135
+Feature: waterpoint_type_group_communal standpipe, Score: -0.24951975883005192
+Feature: waterpoint_type_group_hand pump, Score: 0.21811651650484942

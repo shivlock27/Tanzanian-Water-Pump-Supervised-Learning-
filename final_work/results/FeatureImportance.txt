@@ -1,0 +1,26 @@
+
+Feature: gps_height, Score: -0.00027853621212555217
+Feature: population, Score: -0.00027657017746825815
+Feature: construction_age, Score: 0.04231904982367447
+Feature: closeness_to_waterbody_Far, Score: -1.3957596588218837
+Feature: closeness_to_waterbody_Near, Score: -1.3715081209220847
+Feature: permit_False, Score: -1.7356985085292254
+Feature: permit_True, Score: -1.9467627753304297
+Feature: payment_type_annually, Score: -4.631423680735162
+Feature: payment_type_monthly, Score: -3.9207746642704016
+Feature: payment_type_never pay, Score: -3.0007929310680157
+Feature: payment_type_on failure, Score: -4.295705033211744
+Feature: payment_type_per bucket, Score: -3.9759332526462225
+Feature: quality_group_good, Score: -1.0610597118436493
+Feature: quality_group_other, Score: -0.6527990219128237
+Feature: quality_group_salty, Score: -1.0905344078803607
+Feature: quantity_group_dry, Score: 1.7906213628704943
+Feature: quantity_group_enough, Score: -3.216012849528426
+Feature: quantity_group_insufficient, Score: -2.4839409892499518
+Feature: quantity_group_seasonal, Score: -3.37282879934488
+Feature: source_type_borehole, Score: -2.1507175106724254
+Feature: source_type_river/lake, Score: -2.779175349414428
+Feature: source_type_shallow well, Score: -2.8440594198886893
+Feature: source_type_spring, Score: -2.8812810224541887
+Feature: waterpoint_type_group_communal standpipe, Score: -1.0210495968525106
+Feature: waterpoint_type_group_hand pump, Score: -0.9230705770644172

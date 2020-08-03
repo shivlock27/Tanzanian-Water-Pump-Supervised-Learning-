@@ -1,0 +1,19 @@
+Intercept                             661.891345
+closeness_to_waterbody[T.Near]          0.924108
+permit[T.True]                          0.719461
+payment_type[T.monthly]                 0.452354
+payment_type[T.never pay]               1.119546
+payment_type[T.on failure]              0.288918
+payment_type[T.per bucket]              0.315027
+quality_group[T.other]                  0.650805
+quality_group[T.salty]                  0.724663
+quantity_group[T.enough]                0.003811
+quantity_group[T.insufficient]          0.007728
+quantity_group[T.seasonal]              0.002540
+source_type[T.river/lake]               0.208739
+source_type[T.shallow well]             0.550998
+source_type[T.spring]                   0.171250
+waterpoint_type_group[T.hand pump]      0.411704
+gps_height                              0.999641
+population                              0.999766
+construction_age                        1.041554

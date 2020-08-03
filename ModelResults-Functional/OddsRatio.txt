@@ -1,0 +1,22 @@
+Optimization terminated successfully.
+         Current function value: 0.527393
+         Iterations 8
+Intercept                               0.034886
+closeness_to_waterbody[T.Near]          0.789287
+permit[T.True]                          1.100822
+payment_type[T.monthly]                 0.523197
+payment_type[T.never pay]               0.299739
+payment_type[T.on failure]              0.838641
+payment_type[T.per bucket]              0.922016
+quality_group[T.other]                  0.849121
+quality_group[T.salty]                  0.857727
+quantity_group[T.enough]              110.569169
+quantity_group[T.insufficient]         57.539139
+quantity_group[T.seasonal]            112.957173
+source_type[T.river/lake]               1.635601
+source_type[T.shallow well]             1.761524
+source_type[T.spring]                   2.717080
+waterpoint_type_group[T.hand pump]      1.234024
+gps_height                              1.000228
+population                              1.000168
+construction_age                        0.961324

@@ -1,0 +1,2 @@
+1. construction_age - As age of water pump increases, the non functional character increases.
+2. 

@@ -1,0 +1,56 @@
+Inferences 
+
+# Categorical -------------------------------------
+
+1. Closeness_to_waterbody (Far as reference level)
+- Non functional more likely when the pump is far away from a natural source of  water.
+- As Expected - Since water pump requires water input, closer it is to a waterbody, more functional it is 
+- Conclusion - More non functional Pumps further from Water Bodies.
+
+2. Permit (False as reference level)
+- Non functional more likely when the Pump has no Permit(official allowance to do something).
+- As Expected - Since a water pump requires regular maintenance and permits are required for official maintenance work. In order to cut costs, lack of permit usually leads to lack of maintenance of the Machinery.
+- Conclusion - People should issue Permits to avoid Failure of Pumps.
+
+3). Payment Type (Annually as reference level)
+- Non functional more likely when the payment frequency is low.
+- As Expected - Paid pumps are more likely to be maintained than other pumps that are free to use or follow the ‘payment on failure’ model.
+- Conclusion - Regular payments reduce the non functional character of a water pump.
+
+4. Quality Group (good as refernce group)
+- Non functional more likely when the water quality is good.
+- As Expected - If the quality of water is good, then the pump will be used more regularly and hence it becomes prone to regular failure.
+- Conclusion - More non functional Pumps are present where quality of water is good.
+
+5. Quantity Group (dry as reference level)
+- Non functional more likely when the water pump is dry.
+- As Expected - Since a water pump's utility is to provide water, if it goes dry, its usage decreases and so it gets neglected. Next is (insufficient,enough, seasonal) but even their combined odds of failures(1.4%) is not remotely comparable to that for dry pumps(98.6%)..
+- Conclusion - Most non functional Pumps lie in dry regions.
+
+6. Source Type (borehole as reference level) 
+- Non functional when the source is a borehole and to some extent for shallow wells as well.
+- As Expected - Since a water pump requires water input, Drilling boreholes and maintaining them is costly and since groundwater is used, the process of extraction is slow, saline intrusion degrades the quality of water as well. Shallow wells have limited water input and so they are not a long term, reliable source of water. 
+- Conclusion - More non functional Pumps are found where sources for water are boreholes and shallow wells.
+
+7. Waterpoint type group (Communal Standpipe as reference  level) 
+- Non functional more likely for a communal standpipe.
+- As Expected - A communal standpipe is subject to overuse, could be easily vandalized and mishandled due to disputes over sharing whereas handpumps are restricted to a smaller group and hence can be more easily maintained. 
+- Conclusion - More non functional Pumps when the waterpoint is communal.
+
+# Numerical ------------------------
+
+8. GPS Height 
+- Non functional character increases with decrease in altitude of the well.
+- As Expected - The deeper the water pump, more stable the supply of water and lesser is the chance of going dry. Deep Water Pumps are less prone to surface bacterial degradation as well.  
+- Conclusion - More non functional Pumps for shallow water pumps.
+
+9). Population 
+- Non functional character increases with decrease in population around the well.
+- As Expected - The more the population, the more likely the pump is to be used and hence maintained and cared for.
+- Conclusion - More non functional pumps in sparsely populated areas.
+
+10. Construction Age 
+- Non functional character increases with age of the Pump.
+- As Expected - As is applicable to all types of machineries, they become rusty and more susceptible to failure as they grow old.   
+- Conclusion - Older Water Pumps show a strong Non Functional Character.
+

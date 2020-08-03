@@ -1,0 +1,37 @@
+Confusion / Classification Matrix
+
+Optimization terminated successfully.
+         Current function value: 0.525858
+         Iterations 8
+Predicted     0     1   All
+Actual                     
+0          1407  1683  3090
+1           547  4717  5264
+All        1954  6400  8354
+
+0- Non Functional(Non Functional + functional needs repair)
+1- Functional
+
+Functional% = Actual Functional Correctly Predicted/ Actual Functional = 4717/5264 = 89.6%
+Non Functional% = Actual Non Functional Correctly Predicted/ Actual Non Functional =1407/3090 = 46%
+
+=========================================================================================
+Accuracy is 0.7423988508498923
+
+
+Classification Report
+              precision    recall  f1-score   support
+
+           0       0.73      0.47      0.57      3054
+           1       0.75      0.90      0.82      5300
+
+    accuracy                           0.74      8354
+   macro avg       0.74      0.68      0.69      8354
+weighted avg       0.74      0.74      0.73      8354
+
+
+===========================================================================================
+
+
+
+
